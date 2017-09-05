@@ -19,10 +19,10 @@ class App extends Component {
     <BrowserRouter>
      <div>
       <Switch>
-        <Route exact path="/" component={Home}/>
+        <Route exact path="/home" component={Home}/>
         <Route exact path="/colonist" component={CreateColonist}/>
-        <Route path="/report" component={ReportEncounter}/>
-        <Route path="/view" component={ViewEncounters}/>
+        <Route path="/encounter" component={ReportEncounter}/>
+        <Route path="/encounters" component={ViewEncounters}/>
         <Route component={NotFound} />
       </Switch>
       </div>

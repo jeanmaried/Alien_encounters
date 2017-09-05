@@ -21,6 +21,16 @@ class CreateColonist extends Component {
 
   handleSubmit(event) {
     event.preventDefault();
+    if (this.state.name == null){
+      console.log('empty');
+    }
+    else if(this.state.age == null){
+      console.log('still empty')
+    }
+    else if(this.state.job == null){
+      console.log('still empty')
+    }
+    else{
       axios.post("https://red-wdp-api.herokuapp.com/api/mars/colonists", {
         "colonist" : {
           "name" : this.state.name,
@@ -35,6 +45,7 @@ class CreateColonist extends Component {
         });
         window.location.replace("http://localhost:3000/Report");
   }
+}
   
 
   componentDidMount(){
@@ -52,9 +63,9 @@ class CreateColonist extends Component {
     return (
       <div className="box">
         <div className="navigate flex direction-row justify-between">
-          <Link to="/" ><div>&larr; Prev</div></Link>
-          <Link to="/" ><div>Home</div></Link>
-          <Link to="/Report" ><div>Next   &rarr;</div></Link>
+          <Link to="/home" ><div>&larr; Prev</div></Link>
+          <Link to="/home" ><div>Home</div></Link>
+          <Link to="/encounter" ><div>Next   &rarr;</div></Link>
         </div>
           <form className="flex direction-column align-items-center">
             <label className="flex direction-column text-align">

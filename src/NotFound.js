@@ -4,7 +4,7 @@ import React from 'react';
 const NotFound = () =>
   <div className="box">
     <div id="home" className="flex direction-row justify-center">
-      <Link to="/" ><div>Home</div></Link>
+      <Link to="/home" ><div>Home</div></Link>
     </div>
     <div id='saucer'><img src={require('./ufo.png')} /></div>
     <div className='flex direction-column align-items-center'>

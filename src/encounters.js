@@ -26,8 +26,8 @@ class ViewEncounters extends Component{
     return(
       <div className="box">
         <div className="flex direction-row justify-between">
-          <Link to="/report" ><div>&larr; Prev</div></Link>
-          <Link to="/" ><div>Home</div></Link>
+          <Link to="/encounter" ><div>&larr; Prev</div></Link>
+          <Link to="/home" ><div>Home</div></Link>
           <div></div>
         </div>
       <ul id="encounters">

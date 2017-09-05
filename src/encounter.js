@@ -62,8 +62,8 @@ class ReportEncounter extends Component {
       <div className="box">
         <div className="navigate flex direction-row justify-between">
           <Link to="/colonist" ><div>&larr; Prev</div></Link>
-          <Link to="/" ><div>Home</div></Link>
-          <Link to="/view" ><div>Next &rarr;</div></Link>
+          <Link to="/home" ><div>Home</div></Link>
+          <Link to="/encounters" ><div>Next &rarr;</div></Link>
         </div>
         <form className="flex direction-column align-items-center">
         <label className="flex direction-column text-align">

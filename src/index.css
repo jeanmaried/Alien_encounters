@@ -1,0 +1,87 @@
+body, a, li{
+	text-decoration: none;
+	list-style: none;
+}
+
+a:visited{
+	color: white;
+}
+
+html{
+  background-image: url(rocket.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+body {
+  font-family: sans-serif;
+  color: white;
+}
+
+#home{
+	padding-bottom: 24rem;
+}
+
+#report{
+	padding-bottom: 18rem;
+}
+
+#report_box{
+	background-color: red;
+	border-radius: 5rem;
+	border: 1px solid grey;
+	padding: .5rem;
+}
+
+.navigate{
+	padding-bottom: 24rem;
+}
+
+form{
+	padding-bottom: 15rem;
+}
+
+input{
+	font-size: 1rem;
+	opacity: .6;
+}
+
+select{
+	font-size: 1rem;
+	opacity: .6;
+	width: 10rem;
+}
+
+.box{
+	height: 45rem;
+	overflow: hidden;
+}
+
+#encounters{
+	height: 30rem;
+	overflow: auto;
+	padding-bottom: 25rem;
+}
+
+#saucer{
+	position: absolute;
+	top: 30%;
+}
+
+#saucer img{
+	width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+

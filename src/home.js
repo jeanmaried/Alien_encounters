@@ -14,7 +14,7 @@ class Home extends Component{
     	<div className="box">
         <div id="home" className="flex direction-row justify-center">
           <div></div>
-          <Link to="/home" ><div>Home</div></Link>
+          <Link to="/" ><div>Home</div></Link>
         </div>
         <div id='saucer'><img src={require('./ufo.png')} /></div>
     		<div id="report" className="flex justify-center"><Link to="/colonist"><div id="report_box">REPORT UFO</div></Link></div>

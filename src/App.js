@@ -19,7 +19,7 @@ class App extends Component {
     <BrowserRouter>
      <div>
       <Switch>
-        <Route exact path="/home" component={Home}/>
+        <Route exact path="/" component={Home}/>
         <Route exact path="/colonist" component={CreateColonist}/>
         <Route path="/encounter" component={ReportEncounter}/>
         <Route path="/encounters" component={ViewEncounters}/>

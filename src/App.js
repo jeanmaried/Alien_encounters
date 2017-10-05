@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
 import {BrowserRouter, Route, Link, Switch} from 'react-router-dom';
-import CreateColonist from './colonist';
-import ViewEncounters from './encounters';
-import ReportEncounter from './encounter';
-import NotFound from './NotFound';
-import Home from './home';
+import CreateColonist from './components/colonist';
+import ViewEncounters from './components/encounters';
+import ReportEncounter from './components/encounter';
+import NotFound from './components/NotFound';
+import Home from './components/home';
 
 
 class App extends Component {

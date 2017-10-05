@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import './flex.css';
+import '../flex.css';
 import axios from 'axios';
 import {BrowserRouter, Route, Link} from 'react-router-dom';
 
@@ -63,8 +63,8 @@ class CreateColonist extends Component {
     return (
       <div className="box">
         <div className="navigate flex direction-row justify-between">
-          <Link to="/home" ><div>&larr; Prev</div></Link>
-          <Link to="/home" ><div>Home</div></Link>
+          <Link to="/" ><div>&larr; Prev</div></Link>
+          <Link to="/" ><div>Home</div></Link>
           <Link to="/encounter" ><div>Next   &rarr;</div></Link>
         </div>
           <form className="flex direction-column align-items-center">

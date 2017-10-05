@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import './flex.css';
+import '../flex.css';
 import axios from 'axios';
 import {BrowserRouter, Route, Link} from 'react-router-dom';
 
